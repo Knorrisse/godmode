@@ -1,6 +1,6 @@
+# Tehtävä 2
 
-
-# Tein moduulin alias /etc/puppet/modules/ polkuun. Alias kansioon tein kansiot manifests ja templates. Kansioon templates kopioin bash.bashrc tiedoston polusta /etc/ komennolla (cp /etc/bash.bashrc /etc/puppet/modules/alias/templates/). Muutin tiedoston nimen komennolla (mv /etc/puppet/modules/alias/templates/bash.bashrc /etc/puppet/modules/alias/templates/bash.bashrc.erb). Lisäsin tiedoston alkuun aliaksen (alias t="sudo apt-get install vlc"). Kansioon manifests tein tiedoston init.pp ja siihen kirjoitin:  
+## Tein moduulin alias /etc/puppet/modules/ polkuun. Alias kansioon tein kansiot manifests ja templates. Kansioon templates kopioin bash.bashrc tiedoston polusta /etc/ komennolla (cp /etc/bash.bashrc /etc/puppet/modules/alias/templates/). Muutin tiedoston nimen komennolla (mv /etc/puppet/modules/alias/templates/bash.bashrc /etc/puppet/modules/alias/templates/bash.bashrc.erb). Lisäsin tiedoston alkuun aliaksen (alias t="sudo apt-get install vlc"). Kansioon manifests tein tiedoston init.pp ja siihen kirjoitin:  
 
 class alias {
 
