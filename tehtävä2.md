@@ -12,3 +12,4 @@ class alias {
 
 ## Asensin git komennolla sudo apt-get install git. Loin repository:n GitHub:iin ja kloonasin sen git clone (repository:n linkki) komennolla. Kopioin alias moduulin komennolla (cp -R /etc/puppet/modules/alias /home/nikolas/godmode/modules). Ajoin komennot (Git add .) ja (Git commit) ja sen jälkeen komennot (git pull) ja (git push). Loin tiedoston “tehtävä 2” polkuun /home/nikolas/godmode ja lisäsin siihen tämän tekstin, jonka jälkeen ajoin samat komennot kuin aikaisemmin.
 
+## Koodit löytyvät alias moduulista.
